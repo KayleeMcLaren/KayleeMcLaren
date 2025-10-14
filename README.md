@@ -9,18 +9,34 @@
 
 # 👋 Hi, I'm Kaylee
 
-I'm a **Software Developer** specializing in **Python + AWS** with 2 years of experience in **fintech**.  
-I love building scalable backend systems, automating cloud workflows, and designing solutions that make financial technology smarter and simpler.
+I'm a Software Developer with 2 years of experience in the **fintech** space, passionate about building scalable, secure, and user-centric financial applications on the cloud.
+
+Currently, I'm building a complete **Mini Fintech Ecosystem** from the ground up using AWS Serverless technologies. This portfolio is a collection of interconnected services that demonstrate core fintech functionalities, from digital wallets to payment processing and algorithmic debt optimization.
+
+---
+
+### 🚀 My Core Project: A Serverless Fintech Ecosystem
+
+This is a multi-phase project designed to showcase a practical understanding of fintech architecture and AWS. Each component builds upon the last, creating a cohesive system.
+
+* **Phase 1: Foundations**
+    * [ ] **Digital Wallet API**: The core ledger system.
+    * [ ] **Micro-Loan Management System**: Business workflow automation.
+* **Phase 2: Intermediate**
+    * [ ] **Payment Processing Simulation**: Event-driven architecture and resilience.
+* **Phase 3: Personal & Advanced**
+    * [ ] **Savings Goal Visualiser**: Customer-facing application logic.
+    * [ ] **Debt Repayment Optimizer**: Algorithmic problem-solving.
 
 ---
 
 ## 🧠 Tech Stack
-**Languages:** Python, JavaScript (React)  
-**Cloud:** AWS (Lambda, API Gateway, DynamoDB, Step Functions, EventBridge, Cognito, S3, CloudWatch)  
-**DevOps:** Terraform, GitHub Actions  
-**Databases:** DynamoDB, PostgreSQL  
-**Frontend:** React, TailwindCSS  
-**Other:** REST APIs, Serverless Architecture, Infrastructure as Code
+My primary focus for this ecosystem includes:
+- **Languages:** Python, JavaScript (React)  
+- **Core AWS Services:** Lambda, API Gateway, DynamoDB, Step Functions, Cognito, EventBridge, SNS, S3 
+- **Infrastructure as Code:** Terraform
+- **Databases:** DynamoDB 
+- **Frontend:** React, TailwindCSS  
 
 ---
 
