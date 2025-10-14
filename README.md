@@ -52,6 +52,11 @@ Currently developing: **Digital Wallet API** 💳
 ---
 
 ## 📫 Let's Connect
+**Kaylee McLaren**  
+Software Developer | Fintech | AWS & Python Enthusiast 
 - 💼 [LinkedIn](https://www.linkedin.com/in/software-dev-kaylee-mclaren/)
 - 🐍 [GitHub Projects](https://github.com/kayleemclaren)
 - ✉️ Email: mclaren.kaylee@gmail.com
+  
+Passionate about building reliable, scalable, and impactful cloud-native fintech applications.  
+Currently focused on backend systems, AWS serverless solutions, and data-driven decision tools.
