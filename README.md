@@ -1,11 +1,5 @@
 ![header](https://capsule-render.vercel.app/api?type=waving&height=200&color=gradient&text=Kaylee%20McLaren%20|%20Fintech%20Cloud%20Engineer&fontSize=35&strokeWidth=0&descAlign=0&descAlignY=0&reversal=false&fontAlign=50&fontAlignY=40)
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" />
-  <img src="https://img.shields.io/badge/Fintech-0081CB?style=for-the-badge&logo=visa&logoColor=white" />
-</p>
-
 
 # 👋 Hi, I'm Kaylee
 
