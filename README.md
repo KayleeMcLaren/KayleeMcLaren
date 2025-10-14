@@ -37,11 +37,11 @@ My primary focus for this ecosystem includes:
 ## 💼 Featured Fintech Projects
 | Project | Description | Tech Highlights |
 |----------|--------------|----------------|
-| 💳 [Digital Wallet API](https://github.com/kayleemclaren/digital-wallet-api) | Serverless wallet for deposits, withdrawals, and transfers | AWS Lambda, API Gateway, DynamoDB, Cognito |
-| 💰 [Micro-Loan Management System](https://github.com/kayleemclaren/microloan-management-system) | Automates loan approvals and repayments | Step Functions, EventBridge, DynamoDB |
-| 💵 [Payment Processing Simulator](https://github.com/kayleemclaren/payment-processing-simulator) | Mock Stripe-style payment pipeline | Lambda, SNS, SQS, Step Functions |
-| 💡 [Savings Goal Visualiser](https://github.com/kayleemclaren/savings-goal-visualiser) | Visual budgeting and savings tracker | React, AWS Amplify, Lambda, DynamoDB |
-| 📉 [Debt Repayment Optimizer](https://github.com/kayleemclaren/debt-repayment-optimizer) | Suggests optimal repayment strategies | Python, Lambda, API Gateway, React |
+| 💳 [Digital Wallet API](https://github.com/kayleemclaren/Serverless-Fintech-Ecosystem/digital-wallet-api/) | Serverless wallet for deposits, withdrawals, and transfers | AWS Lambda, API Gateway, DynamoDB, Cognito |
+| 💰 [Micro-Loan Management System](https://github.com/kayleemclaren/Serverless-Fintech-Ecosystem/micro-loan-management-system/) | Automates loan approvals and repayments | Step Functions, EventBridge, DynamoDB |
+| 💵 [Payment Processing Simulator](https://github.com/kayleemclaren/Serverless-Fintech-Ecosystem/payment-processing-simulation/) | Mock Stripe-style payment pipeline | Lambda, SNS, SQS, Step Functions |
+| 💡 [Savings Goal Visualiser](https://github.com/kayleemclaren/Serverless-Fintech-Ecosystem/savings-goal-visualiser/) | Visual budgeting and savings tracker | React, AWS Amplify, Lambda, DynamoDB |
+| 📉 [Debt Repayment Optimizer](https://github.com/kayleemclaren/Serverless-Fintech-Ecosystem/debt-repayment-optimizer) | Suggests optimal repayment strategies | Python, Lambda, API Gateway, React |
 
 ---
 
