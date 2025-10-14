@@ -5,7 +5,7 @@
 
 I'm a Software Developer with 2 years of experience in the **fintech** space, passionate about building scalable, secure, and user-centric financial applications on the cloud.
 
-Currently, I'm building a complete **Mini Fintech Ecosystem** from the ground up using AWS Serverless technologies. This portfolio is a collection of interconnected services that demonstrate core fintech functionalities, from digital wallets to payment processing and algorithmic debt optimization.
+Currently, I'm building a complete [**Serverless Fintech Ecosystem**](https://github.com/KayleeMcLaren/Serverless-Fintech-Ecosystem) from the ground up using AWS Serverless technologies. This portfolio is a collection of interconnected services that demonstrate core fintech functionalities, from digital wallets to payment processing and algorithmic debt optimization.
 
 ---
 
