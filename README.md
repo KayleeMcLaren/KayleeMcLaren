@@ -14,7 +14,7 @@ Currently, I'm building a complete [**Serverless Fintech Ecosystem**](https://gi
 This is a multi-phase project designed to showcase a practical understanding of fintech architecture and AWS. Each component builds upon the last, creating a cohesive system.
 
 * **Phase 1: Foundations**
-    * [ ] **Digital Wallet API**: The core ledger system.
+    * ✅ **Digital Wallet API**: The core ledger system.
     * [ ] **Micro-Loan Management System**: Business workflow automation.
 * **Phase 2: Intermediate**
     * [ ] **Payment Processing Simulation**: Event-driven architecture and resilience.
@@ -47,7 +47,7 @@ My primary focus for this ecosystem includes:
 
 ## 🚀 What I'm Working On
 Building a **Fintech Cloud Portfolio** showcasing AWS serverless architectures and scalable backend systems.  
-Currently developing: **Digital Wallet API** 💳
+Currently developing: **Micro-Loan Management System** 💰
 
 ---
 
