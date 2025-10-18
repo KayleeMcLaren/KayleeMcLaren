@@ -15,7 +15,7 @@ This is a multi-phase project designed to showcase a practical understanding of 
 
 * **Phase 1: Foundations**
     * ✅ **Digital Wallet API**: The core ledger system.
-    * [ ] **Micro-Loan Management System**: Business workflow automation.
+    * ✅ **Micro-Loan Management System**: Business workflow automation.
 * **Phase 2: Intermediate**
     * [ ] **Payment Processing Simulation**: Event-driven architecture and resilience.
 * **Phase 3: Personal & Advanced**
