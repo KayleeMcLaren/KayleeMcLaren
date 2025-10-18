@@ -47,7 +47,7 @@ My primary focus for this ecosystem includes:
 
 ## 🚀 What I'm Working On
 Building a **Fintech Cloud Portfolio** showcasing AWS serverless architectures and scalable backend systems.  
-Currently developing: **Micro-Loan Management System** 💰
+Currently developing: **Payment Processing Simulator** 💵
 
 ---
 
