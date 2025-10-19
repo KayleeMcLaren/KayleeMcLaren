@@ -2,9 +2,11 @@
 
 # 👋 Hi, I'm Kaylee
 
-I'm a Software Developer with 2 years of experience in the **fintech** space, passionate about building scalable, secure, and user-centric financial applications on the cloud.
+For me, software development is a creative act, whether I'm building a compelling proof-of-concept for an investor or a simple, intuitive feature for a user. I love learning new technologies and thrive on the challenge of building something impactful from the ground up.
 
-I'm building this complete [**Serverless Fintech Ecosystem**](https://github.com/KayleeMcLaren/Serverless-Fintech-Ecosystem) from the ground up using AWS, Python, and Terraform. This portfolio is a collection of decoupled, event-driven microservices that demonstrate core fintech functionalities, from digital wallets to asynchronous payment processing.
+This philosophy is at the heart of my work as a Software Developer for a South African fintech startup, where we're on a mission to bring vital digital services to underserved rural communities in Africa.
+
+This [**Serverless Fintech Ecosystem**](https://github.com/KayleeMcLaren/Serverless-Fintech-Ecosystem) is my core portfolio project. It's my playground for exploring these ideas and building a complete, event-driven system from scratch using AWS, Python, and Terraform.
 
 ---
 
