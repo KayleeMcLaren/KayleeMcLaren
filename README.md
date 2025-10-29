@@ -12,26 +12,41 @@ This [**Serverless Fintech Ecosystem**](https://github.com/KayleeMcLaren/Serverl
 
 ### 🚀 My Core Project: A Serverless Fintech Ecosystem
 
+**[Live Demo Link](https://d2pymqjbz2xiof.cloudfront.net/)**
+
 This is a multi-service project designed to showcase a practical understanding of event-driven fintech architecture and Infrastructure as Code. Each component is an independent microservice that communicates via events.
 
-* **Phase 1: Core Services**
-    * ✅ **Digital Wallet API**: The foundational ledger system.
-    * ✅ **Micro-Loan Management System**: An event-driven business workflow.
-* **Phase 2: Event-Driven Sagas**
-    * ✅ **Payment Processing Simulator**: A complex, asynchronous choreography pattern.
-* **Phase 3: Personal & Advanced**
-    * [ ] **Savings Goal Visualiser**: Customer-facing application logic.
-    * [ ] **Debt Repayment Optimizer**: Algorithmic problem-solving.
+## ✅ Project Status: Complete
+
+| Service | Status | Description |
+| :--- | :---: | :--- |
+| **Frontend UI (React)** | ✅ | A React SPA with a full UI for all backend services. |
+| **Digital Wallet API** | ✅ | Core ledger service. Manages user balances and all transactions. |
+| **Micro-Loan System** | ✅ | Manages loan applications, approvals, rejections, and repayments. |
+| **Payment Simulator** | ✅ | Asynchronous, event-driven payment processing saga. |
+| **Savings Goal Manager** | ✅ | Manages CRUD for savings goals and handles atomic fund transfers. |
+| **Debt Repayment Optimiser** | ✅ | Algorithmic calculator for "Avalanche" vs. "Snowball" payoff plans. |
 
 ---
 
-## 🧠 Tech Stack
+## 🛠️ Tech Stack
 My primary focus for this ecosystem includes:
--   **Languages:** Python, JavaScript (React)
--   **Core AWS Services:** **Lambda, API Gateway, DynamoDB (GSI), SNS, S3, CloudFront**
--   **Infrastructure as Code:** **Terraform** (managing all resources across multiple modules)
--   **Architecture:** **Event-Driven Microservices,** Asynchronous Sagas, Decoupled Services
--   **Frontend:** React, TailwindCSS
+
+### Backend & DevOps
+* **Infrastructure as Code:** **Terraform** (with `stg` & `prd` Workspaces)
+* **Serverless Compute:** **AWS Lambda** (Python 3.12)
+* **API:** **AWS API Gateway** (REST API)
+* **Database:** **AWS DynamoDB** (including Global Secondary Indexes - GSIs)
+* **Event-Driven Messaging:** **AWS SNS** (with Subscription Filter Policies)
+* **CI/CD:** **GitHub Actions** (for `pytest` and `terraform validate`)
+
+### Frontend
+* **Framework:** **React** (with React Hooks & Context API)
+* **Hosting:** **AWS S3** (Static Website Hosting)
+* **CDN & Delivery:** **AWS CloudFront** (with OAC)
+* **UI/Styling:** **Tailwind CSS**
+* **Data Visualization:** **Recharts**
+* **Notifications:** **React Hot Toast**
 
 ---
 
@@ -46,10 +61,12 @@ My primary focus for this ecosystem includes:
 
 ---
 
-## 🚀 What I'm Working On
-Building a **Fintech Cloud Portfolio** showcasing AWS serverless architectures and scalable, event-driven backend systems.
+## 🔮 Future Enhancements
+With the core ecosystem complete, the next major feature in development will be:
 
-Currently developing: **Savings Goal Visualiser** 📊
+1. **KYC & Onboarding Orchestrator:** Architecting a new microservice using AWS Step Functions to manage a multi-step, stateful user onboarding and KYC (Know Your Customer) workflow. This will act as a gatekeeper before a wallet can be created.
+
+2. **User Authentication:** Implementing AWS Cognito to manage user sign-up, sign-in, and secure all API Gateway endpoints with a JWT authorizer.
 
 ---
 
@@ -60,5 +77,4 @@ Software Developer | Fintech | AWS & Python Enthusiast
 -   🐍 [GitHub Projects](https://github.com/KayleeMcLaren?tab=repositories)
 -   ✉️ Email: mclaren.kaylee@gmail.com
 
-Passionate about building reliable, scalable, and impactful cloud-native fintech applications.
-Currently focused on backend systems, AWS serverless solutions, and data-driven decision tools.
+I love the challenge of building reliable and impactful fintech apps on AWS. I'm currently focused on coding event-driven backends, mastering AWS serverless, and using data to build smarter tools.
