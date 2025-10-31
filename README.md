@@ -12,7 +12,7 @@ This [**Serverless Fintech Ecosystem**](https://github.com/KayleeMcLaren/Serverl
 
 ### 🚀 My Core Project: A Serverless Fintech Ecosystem
 
-**[Live Demo Link](https://d2pymqjbz2xiof.cloudfront.net/)**
+**[Live Demo Link](https://d18l23eogq3lrf.cloudfront.net/)**
 
 This is a multi-service project designed to showcase a practical understanding of event-driven fintech architecture and Infrastructure as Code. Each component is an independent microservice that communicates via events.
 
