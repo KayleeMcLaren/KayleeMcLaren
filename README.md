@@ -6,15 +6,15 @@ For me, software development is a creative act, whether I'm building a compellin
 
 This philosophy is at the heart of my work as a Software Developer for a South African fintech startup, where we're on a mission to bring vital digital services to underserved rural communities in Africa.
 
-This [**Serverless Fintech Ecosystem**](https://github.com/KayleeMcLaren/Serverless-Fintech-Ecosystem) is my core portfolio project. It's my playground for exploring these ideas and building a complete, event-driven system from scratch using AWS, Python, and Terraform.
+This [**Serverless Fintech Ecosystem**](https://github.com/KayleeMcLaren/Serverless-Fintech-Ecosystem) is my core portfolio project. It's my playground for exploring these ideas and building a complete, event-driven, and **secure** system built from scratch using Python, Terraform, and advanced AWS primitives.
 
 ---
 
-### 🚀 My Core Project: A Serverless Fintech Ecosystem
+### 🏆 My Core Project: A Serverless Fintech Ecosystem
 
 **[Live Demo Link](https://d18l23eogq3lrf.cloudfront.net/)**
 
-This is a multi-service project designed to showcase a practical understanding of event-driven fintech architecture and Infrastructure as Code. Each component is an independent microservice that communicates via events.
+---
 
 ## ✅ Project Status: Complete
 
@@ -34,30 +34,31 @@ My primary focus for this ecosystem includes:
 
 ### Backend & DevOps
 * **Infrastructure as Code:** **Terraform** (with `stg` & `prd` Workspaces)
+* **Authentication:** **AWS Cognito** (User Pools & Authorizers)
 * **Serverless Compute:** **AWS Lambda** (Python 3.12)
-* **API:** **AWS API Gateway** (REST API)
+* **Workflow:** **AWS Step Functions (SFN)**
+* **Event-Driven Messaging:** **AWS SNS/SQS** (with Subscription Filter Policies)
+* **Testing:** **Pytest**, **Moto** (AWS Mocking)
 * **Database:** **AWS DynamoDB** (including Global Secondary Indexes - GSIs)
-* **Event-Driven Messaging:** **AWS SNS** (with Subscription Filter Policies)
-* **CI/CD:** **GitHub Actions** (for `pytest` and `terraform validate`)
 
 ### Frontend
 * **Framework:** **React** (with React Hooks & Context API)
 * **Hosting:** **AWS S3** (Static Website Hosting)
 * **CDN & Delivery:** **AWS CloudFront** (with OAC)
 * **UI/Styling:** **Tailwind CSS**
-* **Data Visualization:** **Recharts**
 * **Notifications:** **React Hot Toast**
 
 ---
 
-## 💼 Featured Fintech Projects
+## 💼 Featured Microservices
 | Project | Description | Tech Highlights |
 | :--- | :--- | :--- |
 | 💳 **Digital Wallet API** | Serverless wallet for creating accounts, checking balances, and processing atomic credit/debit transactions. | **AWS Lambda, API Gateway, DynamoDB** |
 | 💰 **Micro-Loan System** | Event-driven system to apply for, approve, and reject micro-loans. An approval publishes an event to SNS. | **Lambda, DynamoDB (GSI), SNS**. The `digital_wallet` service subscribes to "approval" events to fund the wallet, decoupling the services. |
 | 💵 **Payment Simulator** | Simulates an asynchronous payment saga between a user and a merchant using event choreography. | **Lambda, SNS, DynamoDB**. A `POST` to `/payment` publishes an event. SNS filter policies route events to different Lambdas for processing ("debit wallet" vs. "update status"). |
 | 📊 **Savings Goal Visualiser** | Visual budgeting and savings tracker. | (In Progress) **React, S3/CloudFront, Lambda, API Gateway** |
-| 📉 **Debt Repayment Optimizer** | Suggests optimal repayment strategies (e.g., "Snowball" vs. "Avalanche") based on user's loan data. | (Future) **Python, Lambda, API Gateway, React** |
+| 📉 **Debt Repayment Optimizer** | Stable amortization calculation and comparison tool. | (Future) **Math.log, Lambda** |
+| 📝 **Onboarding Orchestrator** | Multi-step user enrollment with human review. | **AWS Step Functions** |
 
 ---
 
@@ -76,5 +77,5 @@ Software Developer | Fintech | AWS & Python Enthusiast
 -   💼 [LinkedIn](https://www.linkedin.com/in/software-dev-kaylee-mclaren/)
 -   🐍 [GitHub Projects](https://github.com/KayleeMcLaren?tab=repositories)
 -   ✉️ Email: mclaren.kaylee@gmail.com
-
-I love the challenge of building reliable and impactful fintech apps on AWS. I'm currently focused on coding event-driven backends, mastering AWS serverless, and using data to build smarter tools.
+  
+---
