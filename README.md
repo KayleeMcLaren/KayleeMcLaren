@@ -62,15 +62,6 @@ My primary focus for this ecosystem includes:
 
 ---
 
-## 🔮 Future Enhancements
-With the core ecosystem complete, the next major feature in development will be:
-
-1. **KYC & Onboarding Orchestrator:** Architecting a new microservice using AWS Step Functions to manage a multi-step, stateful user onboarding and KYC (Know Your Customer) workflow. This will act as a gatekeeper before a wallet can be created.
-
-2. **User Authentication:** Implementing AWS Cognito to manage user sign-up, sign-in, and secure all API Gateway endpoints with a JWT authorizer.
-
----
-
 ## 📫 Let's Connect
 **Kaylee McLaren**
 Software Developer | Fintech | AWS & Python Enthusiast
