@@ -62,6 +62,13 @@ My primary focus for this ecosystem includes:
 
 ---
 
+## 🔮 Future Projects:
+1. Real-Time Clearing System Mock (PayShap/EFT)
+2. FICA/KYC Data Vault with KMS
+3. Credit Scoring Model Integration Engine
+
+---
+
 ## 📫 Let's Connect
 **Kaylee McLaren**
 Software Developer | Fintech | AWS & Python Enthusiast
