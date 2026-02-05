@@ -1,72 +1,77 @@
-![header](https://capsule-render.vercel.app/api?type=waving&height=200&color=gradient&text=Kaylee%20McLaren%20|%20Fintech%20Cloud%20Engineer&fontSize=35&strokeWidth=0&descAlign=0&descAlignY=0&reversal=false&fontAlign=50&fontAlignY=40)
+![header](https://capsule-render.vercel.app/api?type=waving&height=200&color=gradient&text=Kaylee%20McLaren%20|%20Software%20Engineer&fontSize=35&strokeWidth=0&descAlign=0&descAlignY=0&reversal=false&fontAlign=50&fontAlignY=40)
 
 # 👋 Hi, I'm Kaylee
 
-For me, software development is a creative act, whether I'm building a compelling proof-of-concept for an investor or a simple, intuitive feature for a user. I love learning new technologies and thrive on the challenge of building something impactful from the ground up.
+I'm a Software Engineer passionate about building fintech systems that democratize access to financial services.
 
-This philosophy is at the heart of my work as a Software Developer for a South African fintech startup, where we're on a mission to bring vital digital services to underserved rural communities in Africa.
+Currently, I work at AIMLScore, a South African fintech startup bringing digital financial services to underserved rural communities in Uganda. I've built production systems serving real users - from React dashboards for portfolio analysis to configuring cloud infrastructure with Terraform.
 
-This [**Serverless Fintech Ecosystem**](https://github.com/KayleeMcLaren/Serverless-Fintech-Ecosystem) is my core portfolio project. It's my playground for exploring these ideas and building a complete, event-driven, and **secure** system built from scratch using Python, Terraform, and advanced AWS primitives.
+My [**Serverless Fintech Ecosystem**](https://github.com/KayleeMcLaren/Serverless-Fintech-Ecosystem) is my core portfolio project - a complete, event-driven platform built from scratch to demonstrate production-grade patterns: event choreography, atomic transactions, Step Functions orchestration, and comprehensive testing.
 
----
-
-### 🏆 My Core Project: A Serverless Fintech Ecosystem
-
-**[Live Demo Link](https://d18l23eogq3lrf.cloudfront.net/)**
+**[🚀 Live Demo](https://d18l23eogq3lrf.cloudfront.net/)**
 
 ---
 
-## ✅ Project Status: Complete
+## 💼 What I Build
 
-| Service | Status | Description |
-| :--- | :---: | :--- |
-| **Frontend UI (React)** | ✅ | A React SPA with a full UI for all backend services. |
-| **Digital Wallet API** | ✅ | Core ledger service. Manages user balances and all transactions. |
-| **Micro-Loan System** | ✅ | Manages loan applications, approvals, rejections, and repayments. |
-| **Payment Simulator** | ✅ | Asynchronous, event-driven payment processing saga. |
-| **Savings Goal Manager** | ✅ | Manages CRUD for savings goals and handles atomic fund transfers. |
-| **Debt Repayment Optimiser** | ✅ | Algorithmic calculator for "Avalanche" vs. "Snowball" payoff plans. |
+### At AIMLScore (Professional)
+- Built production React dashboard for portfolio analysis and investor presentations
+- Configured infrastructure using Terraform managing 30+ AWS resources
+- Contributed to event-driven serverless systems processing microloans for rural communities
+
+### Portfolio Projects
+**Serverless Fintech Ecosystem** - Complete event-driven platform with 6 microservices  
+**Payment Service** - Kotlin + Spring Boot microservice demonstrating JVM ecosystem skills
 
 ---
 
 ## 🛠️ Tech Stack
-My primary focus for this ecosystem includes:
 
-### Backend & DevOps
-* **Infrastructure as Code:** **Terraform** (with `stg` & `prd` Workspaces)
-* **Authentication:** **AWS Cognito** (User Pools & Authorizers)
-* **Serverless Compute:** **AWS Lambda** (Python 3.12)
-* **Workflow:** **AWS Step Functions (SFN)**
-* **Event-Driven Messaging:** **AWS SNS/SQS** (with Subscription Filter Policies)
-* **Testing:** **Pytest**, **Moto** (AWS Mocking)
-* **Database:** **AWS DynamoDB** (including Global Secondary Indexes - GSIs)
-
-### Frontend
-* **Framework:** **React** (with React Hooks & Context API)
-* **Hosting:** **AWS S3** (Static Website Hosting)
-* **CDN & Delivery:** **AWS CloudFront** (with OAC)
-* **UI/Styling:** **Tailwind CSS**
-* **Notifications:** **React Hot Toast**
+**Languages:** Python, Kotlin, JavaScript, TypeScript  
+**Backend:** AWS Lambda, Spring Boot, REST APIs, Event-Driven Architecture  
+**Frontend:** React, Tailwind CSS, AWS Amplify  
+**Cloud & DevOps:** AWS (Lambda, DynamoDB, SNS, SQS, Step Functions, API Gateway, Cognito), Terraform, Docker, GitHub Actions  
+**Database:** DynamoDB, SQL, NoSQL  
+**Testing:** Pytest, Moto, JUnit, Spring Boot Test
 
 ---
 
-## 💼 Featured Microservices
-| Project | Description | Tech Highlights |
-| :--- | :--- | :--- |
-| 💳 **Digital Wallet API** | Serverless wallet for creating accounts, checking balances, and processing atomic credit/debit transactions. | **AWS Lambda, API Gateway, DynamoDB** |
-| 💰 **Micro-Loan System** | Event-driven system to apply for, approve, and reject micro-loans. An approval publishes an event to SNS. | **Lambda, DynamoDB (GSI), SNS**. The `digital_wallet` service subscribes to "approval" events to fund the wallet, decoupling the services. |
-| 💵 **Payment Simulator** | Simulates an asynchronous payment saga between a user and a merchant using event choreography. | **Lambda, SNS, DynamoDB**. A `POST` to `/payment` publishes an event. SNS filter policies route events to different Lambdas for processing ("debit wallet" vs. "update status"). |
-| 📊 **Savings Goal Visualiser** | Visual budgeting and savings tracker. | **React, S3/CloudFront, Lambda, API Gateway** |
-| 📉 **Debt Repayment Optimizer** | Stable amortization calculation and comparison tool. | **Math.log, Lambda** |
-| 📝 **Onboarding Orchestrator** | Multi-step user enrollment with human review. | **AWS Step Functions** |
+## ✅ Serverless Fintech Ecosystem - Project Status
+
+| Service | Status | Description |
+| :--- | :---: | :--- |
+| **Digital Wallet API** | ✅ | Core ledger managing balances and atomic transactions |
+| **Micro-Loan System** | ✅ | Event-driven loan approvals, rejections, and repayments |
+| **Payment Simulator** | ✅ | Asynchronous payment processing saga |
+| **Savings Goal Manager** | ✅ | Atomic fund transfers with DynamoDB transactions |
+| **Debt Repayment Optimizer** | ✅ | Amortization calculator for accelerated payoff plans |
+| **KYC Onboarding** | ✅ | Step Functions orchestration with human-in-the-loop |
+
+**Key Technologies:** Python 3.12, Terraform, AWS (Lambda, DynamoDB, SNS, Step Functions, Cognito), React, Pytest/Moto
+
+---
+
+## 👩‍💻 About Me
+
+- 🌍 Based in Cape Town, South Africa
+- 💡 Passionate about using technology to democratize financial services
+- 🎓 Proven ability to learn rapidly and work autonomously in production environments
+- 🚀 Currently learning: Kotlin, Spring Boot, and JVM ecosystems
+- 📚 Background in Social Science (UCT) - non-traditional background brings unique perspective to building user-centric tech
 
 ---
 
 ## 📫 Let's Connect
-**Kaylee McLaren**
-Software Developer | Cloud & Fintech Enthusiast
--   💼 [LinkedIn](https://www.linkedin.com/in/software-dev-kaylee-mclaren/)
--   🐍 [GitHub Projects](https://github.com/KayleeMcLaren?tab=repositories)
--   ✉️ Email: mclaren.kaylee@gmail.com
-  
+
+**Kaylee McLaren**  
+Software Engineer | Building FinTech on AWS
+
+💼 [LinkedIn](https://www.linkedin.com/in/software-dev-kaylee-mclaren/)  
+🐍 [GitHub](https://github.com/KayleeMcLaren?tab=repositories)  
+✉️ [mclaren.kaylee@gmail.com](mailto:mclaren.kaylee@gmail.com)
+
 ---
+
+## 🔮 What's Next
+
+I'm seeking opportunities to grow as a software engineer within a strong engineering team where I can contribute my skills in cloud architecture and event-driven systems while learning from experienced mentors. Particularly interested in roles combining technical excellence with meaningful impact in fintech.
