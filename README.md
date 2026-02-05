@@ -56,8 +56,8 @@ My primary focus for this ecosystem includes:
 | 💳 **Digital Wallet API** | Serverless wallet for creating accounts, checking balances, and processing atomic credit/debit transactions. | **AWS Lambda, API Gateway, DynamoDB** |
 | 💰 **Micro-Loan System** | Event-driven system to apply for, approve, and reject micro-loans. An approval publishes an event to SNS. | **Lambda, DynamoDB (GSI), SNS**. The `digital_wallet` service subscribes to "approval" events to fund the wallet, decoupling the services. |
 | 💵 **Payment Simulator** | Simulates an asynchronous payment saga between a user and a merchant using event choreography. | **Lambda, SNS, DynamoDB**. A `POST` to `/payment` publishes an event. SNS filter policies route events to different Lambdas for processing ("debit wallet" vs. "update status"). |
-| 📊 **Savings Goal Visualiser** | Visual budgeting and savings tracker. | (In Progress) **React, S3/CloudFront, Lambda, API Gateway** |
-| 📉 **Debt Repayment Optimizer** | Stable amortization calculation and comparison tool. | (Future) **Math.log, Lambda** |
+| 📊 **Savings Goal Visualiser** | Visual budgeting and savings tracker. | **React, S3/CloudFront, Lambda, API Gateway** |
+| 📉 **Debt Repayment Optimizer** | Stable amortization calculation and comparison tool. | **Math.log, Lambda** |
 | 📝 **Onboarding Orchestrator** | Multi-step user enrollment with human review. | **AWS Step Functions** |
 
 ---
