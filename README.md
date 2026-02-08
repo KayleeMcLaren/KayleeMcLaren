@@ -54,10 +54,10 @@ My [**Serverless Fintech Ecosystem**](https://github.com/KayleeMcLaren/Serverles
 ## 👩‍💻 About Me
 
 - 🌍 Based in Cape Town, South Africa
-- 💡 Passionate about using technology to democratize financial services
-- 🎓 Proven ability to learn rapidly and work autonomously in production environments
+- 💜 Passionate about using technology to democratize financial services
+- 📚 Proven ability to learn rapidly and work autonomously in production environments
 - 🚀 Currently learning: Kotlin, Spring Boot, and JVM ecosystems
-- 📚 Background in Social Science (UCT) - non-traditional background brings unique perspective to building user-centric tech
+- 🎓 Background in Social Science (UCT) - non-traditional background brings unique perspective to building user-centric tech
 
 ---
 
