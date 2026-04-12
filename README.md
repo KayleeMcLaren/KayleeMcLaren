@@ -97,7 +97,7 @@ RESTful payment microservice built with Kotlin + Spring Boot to explore JVM-base
 
 ## 💼 Work Experience
 
-**Infrastructure Developer @ AIMLScore** (Oct 2023 - Dec 2025)  
+**Cloud Engineer @ AIML Score** (Oct 2023 - Dec 2025)  
 Part of small development team (2-4 engineers) building microfinance platform for rural African markets.
 
 **Infrastructure & Cloud:**
