@@ -1,29 +1,29 @@
 # 👋 Hi, I'm Kaylee McLaren
 
-**Backend Software Engineer** | Python, AWS & Event-Driven Systems | Cape Town, South Africa
+**Cloud Engineer** | Python, AWS, Terraform & Infrastructure Automation | Cape Town, South Africa
 
-I build scalable backend systems for fintech applications, specializing in event-driven microservices, serverless architectures, and infrastructure as code.
+I build and manage cloud infrastructure for scalable applications, specializing in AWS serverless architectures, Infrastructure as Code, and developer-facing tools.
 
 📧 [mclaren.kaylee@gmail.com](mailto:mclaren.kaylee@gmail.com)  
-💼 [LinkedIn](https://www.linkedin.com/in/software-dev-kaylee-mclaren/)  
+💼 [LinkedIn](https://www.linkedin.com/in/cloud-engineer-kaylee-mclaren/)  
 🌍 Cape Town, South Africa | Open to remote opportunities
 
 ---
 
 ## 🚀 What I Do
 
-I design and deploy backend systems with a focus on reliability, scalability, and maintainability. My experience spans production fintech systems, cloud infrastructure management, and building proof-of-concept architectures to explore distributed systems patterns.
+I manage cloud infrastructure with a focus on reliability, automation, and developer experience. My experience spans production fintech systems, Infrastructure as Code with Terraform, and building tools that improve operational efficiency.
 
 **Recent Work:**
-- Built production systems serving 30+ savings groups (500+ members) in Uganda as part of 4-person engineering team
-- Independently managed AWS infrastructure with Terraform (30+ resources across staging/production)
-- Created automated dashboard reducing operational overhead by 85%
-- Developed onboarding automation reducing setup time from 2 hours to 5 minutes
+- Managed AWS serverless infrastructure (Lambda, DynamoDB, S3, EventBridge, SQS) for fintech platform serving customers in Uganda and South Africa
+- Maintained Terraform configurations for multi-environment deployments (dev, staging, production)
+- Built production React dashboard for operational monitoring and portfolio visibility
+- Contributed to fault-tolerant system design with event-driven patterns and idempotency
 
 **Current Focus:** 
-- Exploring distributed systems patterns (event choreography, saga patterns)
-- Expanding into JVM ecosystem (Kotlin/Spring Boot)
-- Building portfolio projects that demonstrate production-grade architecture
+- Deepening Kubernetes expertise 
+- Learning advanced observability (Prometheus, Grafana, OpenTelemetry)
+- Building infrastructure projects that demonstrate DevOps/Platform Engineering skills
 
 ---
 
@@ -31,24 +31,25 @@ I design and deploy backend systems with a focus on reliability, scalability, an
 
 **[🔗 Live Demo](https://d18l23eogq3lrf.cloudfront.net/)** | **[📂 Repository](https://github.com/KayleeMcLaren/Serverless-Fintech-Ecosystem)**
 
-A complete event-driven microservices platform built to understand production patterns for scalable fintech systems.
+A complete event-driven microservices platform demonstrating production-grade infrastructure patterns for scalable fintech systems.
 
 ### What It Demonstrates
 
-✅ **Event-Driven Architecture** - 6 microservices communicating via AWS SNS (Saga pattern)  
-✅ **Infrastructure as Code** - Multi-environment Terraform with workspace isolation  
-✅ **Security** - JWT authentication with AWS Cognito on 20+ endpoints  
-✅ **Workflow Orchestration** - KYC process using AWS Step Functions  
+✅ **Event-Driven Architecture** - 6 microservices communicating via AWS SNS/SQS  
+✅ **Infrastructure as Code** - Complete AWS infrastructure managed with Terraform  
+✅ **Multi-Environment Deployments** - Terraform workspaces for dev/staging/production isolation  
+✅ **Security** - JWT authentication with AWS Cognito, IAM least-privilege policies  
+✅ **Workflow Orchestration** - KYC verification process using AWS Step Functions  
 ✅ **Financial Correctness** - Atomic transactions via DynamoDB TransactWriteItems  
-✅ **Testing & CI/CD** - Pytest suite with Moto + GitHub Actions automation
+✅ **Fault Tolerance** - Dead-letter queues, retry logic, idempotency for reliability
 
-### Architecture Highlight
+### Infrastructure Highlight
 
-This project uses event choreography where services publish events to SNS topics and subscribers react independently. For example, when a loan is approved, the loan service publishes an event—the wallet service subscribes and funds the account automatically. This decouples services and enables independent scaling.
+All infrastructure is defined as code using Terraform—no manual AWS console clicking. The project uses modular Terraform configurations with separate modules for API Gateway, Lambda functions, DynamoDB tables, SNS/SQS messaging, and Step Functions. This enables reproducible deployments across environments and infrastructure versioning.
 
-**Why I built it this way:** At my day job, I worked on Lambda-based systems but didn't architect the overall event-driven patterns. This project let me design the complete system architecture from scratch to understand trade-offs between choreography vs. orchestration, eventual consistency challenges, and idempotency requirements.
+**Why I built it this way:** At my previous role, I worked within an existing serverless architecture. This project gave me the opportunity to design the complete infrastructure from scratch—making decisions about service boundaries, event flow, state management, and fault tolerance patterns. It helped me understand the "why" behind architectural choices, not just the "how."
 
-**Tech Stack:** Python 3.12, AWS (Lambda, API Gateway, SNS, Step Functions, DynamoDB, Cognito), Terraform, React, CloudFront
+**Tech Stack:** Python, AWS (Lambda, API Gateway, SNS, SQS, Step Functions, DynamoDB, Cognito), Terraform, React, CloudFront
 
 ---
 
@@ -56,12 +57,12 @@ This project uses event choreography where services publish events to SNS topics
 
 **[📂 Repository](https://github.com/KayleeMcLaren/Payment-Service)**
 
-RESTful payment microservice built with Kotlin + Spring Boot to demonstrate proficiency with JVM-based enterprise patterns.
+RESTful payment microservice built with Kotlin + Spring Boot to explore JVM-based enterprise patterns.
 
-**Why Kotlin?** My production experience is Python/AWS serverless. I built this to understand JVM-based microservices architecture commonly used in enterprise fintech—dependency injection with Spring, ORM patterns with JPA/Hibernate, and Kotlin's type safety compared to Python's dynamic typing.
+**Why Kotlin?** My production experience is Python-based serverless. I built this to understand JVM ecosystem patterns commonly used in enterprise fintech—Spring's dependency injection, JPA/Hibernate for ORM, and Kotlin's type safety compared to Python's dynamic typing.
 
 **Highlights:**
-- Spring Data JPA with H2 database
+- Spring Boot with Spring Data JPA
 - Payment lifecycle state management
 - Comprehensive testing (JUnit 5 + MockK)
 - Service-repository pattern
@@ -72,47 +73,57 @@ RESTful payment microservice built with Kotlin + Spring Boot to demonstrate prof
 
 ## 🛠️ Tech Stack
 
-**Languages:** Python (Expert) • Kotlin (Proficient) • JavaScript/TypeScript • SQL
+**Cloud & Infrastructure:** AWS (Lambda, DynamoDB, S3, EventBridge, SNS/SQS, Step Functions, API Gateway, Cognito, CloudFront, CloudWatch, IAM, VPC) • Terraform • Docker • Kubernetes (learning)
 
-**Backend & Cloud:** AWS (Lambda, DynamoDB, Step Functions, SNS/SQS, API Gateway, Cognito) • Spring Boot • FastAPI • Flask
+**Programming:** Python (2+ years production) • Kotlin • JavaScript/TypeScript • SQL
 
-**DevOps & IaC:** Terraform • Docker • Git • GitHub Actions • CI/CD
+**DevOps & Tools:** Git • GitHub Actions • CI/CD pipelines • Linux • Bash
 
-**Practices:** Event-Driven Architecture • Microservices • Infrastructure as Code • TDD • Agile
+**Monitoring & Observability:** CloudWatch • Prometheus (learning) • Grafana (learning) • OpenTelemetry (learning)
+
+**Development Practices:** Infrastructure as Code • Event-Driven Architecture • Microservices • Fault-Tolerant Design
 
 ---
 
 ## 📊 Current Projects & Learning
 
-🔭 **Currently:** Exploring Kafka for event streaming (understanding alternatives to SNS/SQS at scale)  
-🌱 **Learning:** FastAPI for high-performance Python APIs, Kubernetes for container orchestration  
-💡 **Interested in:** Platform engineering, financial infrastructure, distributed systems at scale
+🔭 **Currently:** Building Kubernetes projects
+
+🌱 **Learning:** Advanced observability (Prometheus, Grafana, OpenTelemetry), platform engineering patterns  
+
+💡 **Interested in:** DevOps, Platform Engineering, Cloud Infrastructure, Site Reliability Engineering
 
 ---
 
 ## 💼 Work Experience
 
-**Junior Software Engineer @ AIMLScore** (Oct 2023 - Dec 2025)  
-Part of 4-person team building microfinance platform for rural Uganda.
+**Infrastructure Developer @ AIMLScore** (Oct 2023 - Dec 2025)  
+Part of small development team (2-4 engineers) building microfinance platform for rural African markets.
 
-**Individual ownership:**
-- Built production React dashboard (sole developer)
-- Managed all Terraform infrastructure (30+ AWS resources)
-- Created automated onboarding system (96% time reduction)
+**Infrastructure & Cloud:**
+- Managed production AWS serverless infrastructure (Lambda, DynamoDB, S3, EventBridge, SQS)
+- Maintained Terraform configurations for multi-environment deployments
+- Collaborated with team on infrastructure improvements and troubleshooting
+- Contributed to fault-tolerant system design with dead-letter queues and retry patterns
 
-**Team contributions:**
-- Implemented Lambda functions for loan lifecycle under senior developer guidance
-- Participated in DynamoDB schema design for multi-tenant patterns
-- Collaborated on production observability and monitoring
+**Development & Tooling:**
+- Built production React dashboard for loan portfolio monitoring and operational visibility
+- Developed backend services using Python and AWS Lambda
+- Worked with team on deployment processes and version control workflows
+
+**Operations:**
+- Supported production systems with monitoring, alerting, and incident response
+- Used CloudWatch for logging, metrics, and system health tracking
+- Took on increasing infrastructure responsibility as team evolved
 
 ---
 
 ## 📫 Let's Connect
 
-I'm interested in backend engineering roles where I can work on scalable systems, contribute to meaningful products, and continue growing my distributed systems expertise.
+I'm seeking Cloud Engineer, DevOps Engineer, or Platform Engineering roles where I can build reliable infrastructure, automate operations, and work with experienced engineers to deepen my skills.
 
 **Email:** mclaren.kaylee@gmail.com  
-**LinkedIn:** [linkedin.com/in/software-dev-kaylee-mclaren](https://www.linkedin.com/in/software-dev-kaylee-mclaren/)  
+**LinkedIn:** [linkedin.com/in/cloud-engineer-kaylee-mclaren/](https://www.linkedin.com/in/cloud-engineer-kaylee-mclaren/)  
 **Location:** Cape Town, South Africa (Open to remote)  
 **Status:** Currently seeking new opportunities
 
