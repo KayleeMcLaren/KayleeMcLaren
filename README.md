@@ -79,7 +79,7 @@ RESTful payment microservice built with Kotlin + Spring Boot to explore JVM-base
 
 **DevOps & Tools:** Git • GitHub Actions • CI/CD pipelines • Linux • Bash
 
-**Monitoring & Observability:** CloudWatch • Prometheus (learning) • Grafana (learning) • OpenTelemetry (learning)
+**Monitoring & Observability:** CloudWatch • Prometheus (learning) • Grafana (learning) 
 
 **Development Practices:** Infrastructure as Code • Event-Driven Architecture • Microservices • Fault-Tolerant Design
 
