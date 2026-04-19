@@ -29,7 +29,7 @@ I manage cloud infrastructure with a focus on reliability, automation, and devel
 
 ## 🏆 Featured Project: Serverless Fintech Ecosystem
 
-**[🔗 Live Demo](https://d18l23eogq3lrf.cloudfront.net/)** | **[📂 Repository](https://github.com/KayleeMcLaren/Serverless-Fintech-Ecosystem)**
+**[📂 Repository](https://github.com/KayleeMcLaren/Serverless-Fintech-Ecosystem)**
 
 A complete event-driven microservices platform demonstrating production-grade infrastructure patterns for scalable fintech systems.
 
