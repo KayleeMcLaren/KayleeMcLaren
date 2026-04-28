@@ -1,104 +1,31 @@
 # 👋 Hi, I'm Kaylee McLaren
 
-**Cloud Engineer** | Python, AWS, Terraform & Infrastructure Automation | Cape Town, South Africa
+**DevOps Engineer** | Cloud Infrastructure & Kubernetes Specialist | Building in Public 
 
-I build and manage cloud infrastructure for scalable applications, specializing in AWS serverless architectures, Infrastructure as Code, and developer-facing tools.
-
-📧 [mclaren.kaylee@gmail.com](mailto:mclaren.kaylee@gmail.com)  
-💼 [LinkedIn](https://www.linkedin.com/in/cloud-engineer-kaylee-mclaren/)  
-🌍 Cape Town, South Africa | Open to remote opportunities
-
----
-
-## 🚀 What I Do
-
-I manage cloud infrastructure with a focus on reliability, automation, and developer experience. My experience spans production fintech systems, Infrastructure as Code with Terraform, and building tools that improve operational efficiency.
-
-**Recent Work:**
-- Managed AWS serverless infrastructure (Lambda, DynamoDB, S3, EventBridge, SQS) for fintech platform serving customers in Uganda and South Africa
-- Maintained Terraform configurations for multi-environment deployments (dev, staging, production)
-- Built production React dashboard for operational monitoring and portfolio visibility
-- Contributed to fault-tolerant system design with event-driven patterns and idempotency
-
-**Current Focus:** 
-- Deepening Kubernetes expertise 
-- Learning advanced observability (Prometheus, Grafana, OpenTelemetry)
-- Building infrastructure projects that demonstrate DevOps/Platform Engineering skills
+📍 Cape Town, South Africa   
+💼 2+ years production experience with AWS, Terraform & Infrastructure Automation  
+🔭 Currently: Deploying production-grade microservices to Kubernetes  
+🌱 Learning: Advanced K8s patterns, Prometheus/Grafana observability, GitOps  
 
 ---
 
-## 🏆 Featured Project: Serverless Fintech Ecosystem
+## 🚀 About Me
 
-**[📂 Repository](https://github.com/KayleeMcLaren/Serverless-Fintech-Ecosystem)**
+I'm a DevOps Engineer transitioning from Cloud Engineering, with a passion for infrastructure automation and reliable systems. My experience spans production fintech systems, Infrastructure as Code with Terraform, and building tools that improve operational efficiency.
 
-A complete event-driven microservices platform demonstrating production-grade infrastructure patterns for scalable fintech systems.
-
-### What It Demonstrates
-
-✅ **Event-Driven Architecture** - 6 microservices communicating via AWS SNS/SQS  
-✅ **Infrastructure as Code** - Complete AWS infrastructure managed with Terraform  
-✅ **Multi-Environment Deployments** - Terraform workspaces for dev/staging/production isolation  
-✅ **Security** - JWT authentication with AWS Cognito, IAM least-privilege policies  
-✅ **Workflow Orchestration** - KYC verification process using AWS Step Functions  
-✅ **Financial Correctness** - Atomic transactions via DynamoDB TransactWriteItems  
-✅ **Fault Tolerance** - Dead-letter queues, retry logic, idempotency for reliability
-
-### Infrastructure Highlight
-
-All infrastructure is defined as code using Terraform—no manual AWS console clicking. The project uses modular Terraform configurations with separate modules for API Gateway, Lambda functions, DynamoDB tables, SNS/SQS messaging, and Step Functions. This enables reproducible deployments across environments and infrastructure versioning.
-
-**Why I built it this way:** At my previous role, I worked within an existing serverless architecture. This project gave me the opportunity to design the complete infrastructure from scratch—making decisions about service boundaries, event flow, state management, and fault tolerance patterns. It helped me understand the "why" behind architectural choices, not just the "how."
-
-**Tech Stack:** Python, AWS (Lambda, API Gateway, SNS, SQS, Step Functions, DynamoDB, Cognito), Terraform, React, CloudFront
-
----
-
-## 💳 Also Check Out: Payment Service (Kotlin)
-
-**[📂 Repository](https://github.com/KayleeMcLaren/Payment-Service)**
-
-RESTful payment microservice built with Kotlin + Spring Boot to explore JVM-based enterprise patterns.
-
-**Why Kotlin?** My production experience is Python-based serverless. I built this to understand JVM ecosystem patterns commonly used in enterprise fintech—Spring's dependency injection, JPA/Hibernate for ORM, and Kotlin's type safety compared to Python's dynamic typing.
-
-**Highlights:**
-- Spring Boot with Spring Data JPA
-- Payment lifecycle state management
-- Comprehensive testing (JUnit 5 + MockK)
-- Service-repository pattern
-
-**Tech Stack:** Kotlin, Spring Boot, Spring Data JPA, H2, Gradle, JUnit, MockK
-
----
-
-## 🛠️ Tech Stack
-
-**Cloud & Infrastructure:** AWS (Lambda, DynamoDB, S3, EventBridge, SNS/SQS, Step Functions, API Gateway, Cognito, CloudFront, CloudWatch, IAM, VPC) • Terraform • Docker • Kubernetes (learning)
-
-**Programming:** Python (2+ years production) • Kotlin • JavaScript/TypeScript • SQL
-
-**DevOps & Tools:** Git • GitHub Actions • CI/CD pipelines • Linux • Bash
-
-**Monitoring & Observability:** CloudWatch • Prometheus (learning) • Grafana (learning) 
-
-**Development Practices:** Infrastructure as Code • Event-Driven Architecture • Microservices • Fault-Tolerant Design
-
----
-
-## 📊 Current Projects & Learning
-
-🔭 **Currently:** Building Kubernetes projects
-
-🌱 **Learning:** Advanced observability (Prometheus, Grafana, OpenTelemetry), platform engineering patterns  
-
-💡 **Interested in:** DevOps, Platform Engineering, Cloud Infrastructure, Site Reliability Engineering
+**My approach:**  
+Hands-on learning through real projects, not just tutorials. Every repository here represents something I've actually built, deployed, and debugged.  
+- Build real projects, not just tutorials
+- Document everything - successes and failures
+- Share the messy middle - debugging, troubleshooting, learning
+- Help others learn through clear explanations
 
 ---
 
 ## 💼 Work Experience
 
 **Cloud Engineer @ AIML Score** (Oct 2023 - Dec 2025)  
-Part of small development team (2-4 engineers) building microfinance platform for rural African markets.
+Part of small development team (4 engineers) building a microfinance platform for rural African markets.
 
 **Infrastructure & Cloud:**
 - Managed production AWS serverless infrastructure (Lambda, DynamoDB, S3, EventBridge, SQS)
@@ -118,13 +45,103 @@ Part of small development team (2-4 engineers) building microfinance platform fo
 
 ---
 
-## 📫 Let's Connect
+## 🔥 Featured Projects
 
-I'm seeking Cloud Engineer, DevOps Engineer, or Platform Engineering roles where I can build reliable infrastructure, automate operations, and work with experienced engineers to deepen my skills.
+### Kubernetes DevOps Journey ⭐
+My main learning project - Documenting the complete journey from AWS Serverless → Docker → Kubernetes  
 
-**Email:** mclaren.kaylee@gmail.com  
-**LinkedIn:** [linkedin.com/in/cloud-engineer-kaylee-mclaren/](https://www.linkedin.com/in/cloud-engineer-kaylee-mclaren/)  
-**Location:** Cape Town, South Africa (Open to remote)  
-**Status:** Currently seeking new opportunities
+**Status:** Week 3 Complete ✅ | Week 4 (Observability) Coming Soon  
+
+**What I built:**
+- 📦 Converted 5 Lambda functions into unified FastAPI microservice
+- 🐳 Containerized with Docker (multi-container networking)
+- ☸️ Deployed to Kubernetes with high availability (2 replicas)
+- 🔄 Configured service discovery, load balancing, Ingress
+- 📊 Implemented health checks, ConfigMaps, resource limits
+
+**Why it's special:**
+- Complete documentation with 50+ screenshots
+- Every challenge and solution documented
+- Real troubleshooting examples
+- Production-grade patterns
+
+**Tech Stack:** `Kubernetes` `Docker` `FastAPI` `Python` `DynamoDB` `Pydantic` `YAML`  
+📖 Read the journey → [Kubernetes DevOps Journey](https://github.com/KayleeMcLaren/kubernetes-devops-journey)
+
+---
+
+### Serverless Fintech Ecosystem
+Production-ready AWS serverless architecture demonstrating event-driven microservices  
+
+**Features:**  
+- 🏗️ Complete infrastructure as code (Terraform)  
+- ⚡ Event-driven architecture (Lambda, SQS, EventBridge)  
+- 💰 Financial transaction processing with idempotency  
+- 🧪 Automated testing with Pytest + Moto  
+- 🚀 CI/CD pipeline with GitHub Actions  
+
+**Tech Stack:** AWS Lambda DynamoDB Terraform Python SQS EventBridge  
+ 📂 Explore code → [Serverless Fintech Ecosystem](https://github.com/KayleeMcLaren/Serverless-Fintech-Ecosystem)
+
+---
+
+## 🛠️ Tech Stack
+
+**Cloud Platforms:** AWS (2+ years production) - Lambda, DynamoDB, S3, EventBridge, SNS/SQS, Step Functions, API Gateway, Cognito, CloudFront, CloudWatch, IAM, VPC
+
+**Infrastructure as Code:** Terraform (2+ years), CloudFormation, YAML/JSON
+
+**Containers:** Docker, Kubernetes (Deployments, Services, ConfigMaps, Ingress)
+
+**Programming:** Python (automation, backend services), Bash scripting, JavaScript
+
+**Frameworks:** FastAPI (microservices), React (dashboards), Pydantic
+
+**CI/CD:** Git • Git worklows
+
+**Monitoring & Observability:** CloudWatch • Prometheus (learning) • Grafana (learning) 
+
+**OS:** Linux (command line, system administration, troubleshooting)
+
+---
+
+## 📊 Current Projects & Learning
+
+🔭 **Active Projects:**  
+- 🔄 Completing Kubernetes DevOps Journey (Week 4: Observability)
+- 📈 Building Prometheus + Grafana monitoring stack
+- 📝 Technical writing and documentation  
+
+🌱 **Learning Goals:**  
+- Advanced Kubernetes patterns (StatefulSets, DaemonSets)
+- GitOps with ArgoCD
+- Service mesh (Istio)
+- Infrastructure testing (Terratest)
+
+---
+
+💡 **Fun Facts:**
+
+- 🎓 Career changer: Social Science degree → Software Engineering bootcamp → DevOps
+- 🌍 Passionate about tech for social impact (fintech for emerging markets)
+- 📖 Love technical documentation (seriously!)
+- ☕ Best debugging happens with good iced coffee (yes, even in winter)
+- 🩷 When not coding: 🍰 Baking 🏃‍♀️ Running 🎮 Video Games 
+
+---
+
+## 🤝 Let's Connect!  
+I'm always interested in connecting with other DevOps engineers, learning from experienced SREs, and discussing infrastructure challenges.  
+
+**Best ways to reach me:**
+- 📧 Email: mclaren.kaylee@gmail.com
+- 💼 LinkedIn: [linkedin.com/in/cloud-engineer-kaylee-mclaren](https://www.linkedin.com/in/cloud-engineer-kaylee-mclaren/)
+- ✨ GitHub: You're already here! Feel free to explore my repositories
+
+**I'm open to:**
+- DevOps/SRE opportunities in Cape Town or remote
+- Technical discussions and knowledge sharing
+- Collaboration on interesting infrastructure projects
+- Mentorship (both giving and receiving)
 
 ---
