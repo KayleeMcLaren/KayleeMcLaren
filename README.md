@@ -80,7 +80,7 @@ Production-ready AWS serverless architecture demonstrating event-driven microser
 - 🧪 Automated testing with Pytest + Moto  
 - 🚀 CI/CD pipeline with GitHub Actions  
 
-**Tech Stack:** AWS Lambda DynamoDB Terraform Python SQS EventBridge  
+**Tech Stack:** `AWS` `Lambda` `DynamoDB` `Terraform` `Python` `SQS/SNS` `EventBridge` `CloudWatch`  
  📂 Explore code → [Serverless Fintech Ecosystem](https://github.com/KayleeMcLaren/Serverless-Fintech-Ecosystem)
 
 ---
