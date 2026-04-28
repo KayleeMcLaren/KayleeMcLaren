@@ -11,7 +11,7 @@
 
 ## 🚀 About Me
 
-I'm a DevOps Engineer transitioning from Cloud Engineering, with a passion for infrastructure automation and reliable systems. My experience spans production fintech systems, Infrastructure as Code with Terraform, and building tools that improve operational efficiency.
+I'm a DevOps Engineer transitioning from Software Developement, with a passion for infrastructure automation and reliable systems. My experience spans production fintech systems, Infrastructure as Code with Terraform, and building tools that improve operational efficiency.
 
 **My approach:**  
 Hands-on learning through real projects, not just tutorials. Every repository here represents something I've actually built, deployed, and debugged.  
@@ -24,7 +24,7 @@ Hands-on learning through real projects, not just tutorials. Every repository he
 
 ## 💼 Work Experience
 
-**Cloud Engineer @ AIML Score** (Oct 2023 - Dec 2025)  
+**Software Developer @ AIML Score** (Oct 2023 - Dec 2025)  
 Part of small development team (4 engineers) building a microfinance platform for rural African markets.
 
 **Infrastructure & Cloud:**
